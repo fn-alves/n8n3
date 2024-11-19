@@ -1,4 +1,4 @@
-FROM n8nio/n8n:latest
+FROM fnxalves/n8n:latest
 
 ARG PGPASSWORD
 ARG PGHOST
@@ -18,4 +18,4 @@ ARG ENCRYPTION_KEY
 
 ENV N8N_ENCRYPTION_KEY=$ENCRYPTION_KEY
 
-CMD ["n8n start"]
+CMD ["fxn8n start"]
